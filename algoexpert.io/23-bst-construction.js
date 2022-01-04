@@ -23,7 +23,7 @@ class BST {
 
   // Average: O(log(n)) time | O(1) space
   // Worst: O(n) time | O(1) space
-  insert = (newValue) => {
+  insert(newValue) {
     let currentNode = this;
     while (true) {
       if (newValue < currentNode.value) {
@@ -43,11 +43,11 @@ class BST {
       }
     }
     return this;
-  };
+  }
 
   // Average: O(log(n)) time | O(1) space
-  // Worst: O(n) time | O(1) space 
-  remove = (value, parentNode = undefined) => {
+  // Worst: O(n) time | O(1) space
+  remove(value, parentNode = undefined){
     let currentNode = this;
     while (currentNode) {
       if (value < currentNode.value) {
@@ -87,7 +87,7 @@ class BST {
     return this;
   }
 
-  minValue = () => {
+  minValue(){
     let currentNode = this;
     while (currentNode.left) {
       currentNode = currentNode.left;
@@ -105,4 +105,10 @@ console.log(tree);
 
 console.log(tree.contains(12), tree.contains(80));
 
-console.log("\n\n\n",tree.contains(8),tree.remove(8), tree.contains(8), "\n\n\n")
+console.log(
+  "\n\n\n",
+  tree.contains(8),
+  tree.remove(8),
+  tree.contains(8),
+  "\n\n\n"
+);
