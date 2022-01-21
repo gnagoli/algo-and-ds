@@ -54,7 +54,7 @@ function findNLargest(array, n = 3) {
   return nLargests;
 }
 
-const numbersArrab = [1, 90, 123, 345, 23, 8990, 45, 10067, 78, 678, 9876];
+const numbersArrab = [1, 90, 123, 345, 23, 8990, 45, 100,67, 78, 678, 98,76];
 
 console.log(findThreeLargest(numbersArrab));
 
