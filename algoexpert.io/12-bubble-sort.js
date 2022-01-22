@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 
+// O(n^2) time | O(1) space
 function bubbleSort(array) {
   let isSorted = false;
   let counter = 0;
