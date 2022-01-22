@@ -44,7 +44,7 @@ function findNLargest(array, n = 3) {
     while (idx >= 0) {
       if (!nLargests[idx] || nLargests[idx] < value) {
         updateAndShift(nLargests, value, idx);
-        break; //  Stop if value inserted
+        break; // ! Stop the inner loop if value inserted
       }
       idx--;
     }
