@@ -11,9 +11,6 @@
 function threeNumbersSum(array, targetSum) {
   array.sort((a, b) => a - b);
   let triplets = [];
-
-  console.log(array);
-
   for (let i = 0; i < array.length - 2; i++) {
     let left = i + 1;
     let rigth = array.length - 1;
