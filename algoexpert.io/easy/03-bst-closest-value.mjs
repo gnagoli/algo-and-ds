@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-import BST from "./23-bst-construction.mjs"; // for test purpose
+import BST from "../medium/04-bst-construction.mjs"; // for test purpose
 
 //  Iterative method
 // Average : O(log(n)) time | O(1) space
