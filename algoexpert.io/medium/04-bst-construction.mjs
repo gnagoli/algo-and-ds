@@ -96,22 +96,22 @@ class BST {
   }
 }
 
-// const tree = new BST(20);
-// tree.insert(8);
-// console.log(tree);
-// tree.insert(12).insert(132);
+// // const tree = new BST(20);
+// // tree.insert(8);
+// // console.log(tree);
+// // tree.insert(12).insert(132);
 
-// console.log(tree);
+// // console.log(tree);
 
-// console.log(tree.contains(12), tree.contains(80));
+// // console.log(tree.contains(12), tree.contains(80));
 
-// console.log(
-//   "\n\n\n",
-//   tree.contains(8),
-//   tree.remove(8),
-//   tree.contains(8),
-//   "\n\n\n"
-// );
+// // console.log(
+// //   "\n\n\n",
+// //   tree.contains(8),
+// //   tree.remove(8),
+// //   tree.contains(8),
+// //   "\n\n\n"
+// // );
 
 
 export default BST;
