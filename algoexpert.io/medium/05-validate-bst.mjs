@@ -1,5 +1,12 @@
 import BST from "./04-bst-construction.mjs";
 
+/**
+ * Validate bst
+ * @param {BST} tree
+ * @returns true | false
+ *
+ * O(n) time | O(d) space [n is the nodes and d is the depth of the tree]
+ */
 function validateBst(tree) {
   return validateBstHelper(tree, -Infinity, Infinity);
 }
