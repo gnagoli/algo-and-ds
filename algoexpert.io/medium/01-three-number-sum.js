@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 
+/*jshint esversion: 6 */
 /**
  *
  * @param {*} array  numbers list

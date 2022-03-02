@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-
+/*jshint esversion: 6 */
 /**
  * Move elements to the end of array
  *

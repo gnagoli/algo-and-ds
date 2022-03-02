@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-
+/*jshint esversion: 6 */
 /**
  * Smallest differnce between numbers of tow different arrays
  *
